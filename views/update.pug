@@ -1,0 +1,9 @@
+h1 Update book
+
+form(action="/books/update", method="POST")
+  label New title
+  br
+  input(type="hidden", name="id", value= id)
+  input(type="text", name="title")
+  
+  button Update
